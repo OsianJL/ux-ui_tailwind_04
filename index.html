@@ -1,26 +1,62 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon/tailwind_logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles/style.css">
-    <title>MentorTailwind</title>
-  </head>
-  <body>
-    <header class="flex justify-between p-4 items-center">
-      <nav class="flex gap-2">
-        <img src="/images/icon-menu.svg" alt="hamburger menu">
-        <img src="/images/logo.svg" alt="Company llgo">
-      </nav>
-      <nav class="flex gap-2">
-        <img src="/images/icon-cart.svg" alt="shopping cart">
-        <img class="w-10" src="/images/image-avatar.png" alt="profile picture">
-      </nav>
-    </header>
-    <main>
 
-    </main>
-    <footer></footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon/tailwind_logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <title>MentorTailwind</title>
+</head>
+
+<body>
+  <header class="flex justify-between p-4 items-center">
+    <nav class="flex gap-2">
+      <img src="/images/icon-menu.svg" alt="hamburger menu">
+      <img src="/images/logo.svg" alt="Company llgo">
+    </nav>
+    <nav class="flex gap-2">
+      <img src="/images/icon-cart.svg" alt="shopping cart">
+      <img class="w-10" src="/images/image-avatar.png" alt="profile picture">
+    </nav>
+  </header>
+  <main>
+    <picture class="relative">
+      <img src="/public/images/image-product-1.jpg" alt="shoes picture">
+      <div class="flex justify-between px-3 absolute inset-0 items-center">
+        <img src="/public/images/icon-previous.svg" alt="arrow logo right" class="bg-white flex w-10 h-10 rounded-full items-center justify-center p-3">
+        <img src="/public/images/icon-next.svg" alt="arrow logo left" class="bg-white flex w-10 h-10 rounded-full items-center justify-center p-3">
+      </div>
+    </picture>
+<figcaption>SNEAKER COMPANY</figcaption>
+<section>
+  <h1>Fall Limited Edition Sneakers</h1>
+  <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+  <div class="flex justify-between px-10">
+    <div class="flex">
+      <div>$ 125.00</div>
+      <div>50%</div>
+    </div>
+    <div>$ 250</div>
+  </div>
+  <div class="border-2 rounded-lg bg-gray-400 p-2 mx-5 flex justify-evenly">
+    <img src="/public/images/icon-minus.svg" alt="minus symbol">
+    <span>0</span>
+    <img src="/public/images/icon-plus.svg" alt="plus symbol">
+  </div>
+  
+  <div class="border-2 rounded-lg bg-gray-400 p-2 mx-5 flex justify-evenly">
+    <img src="/public/images/icon-minus.svg" alt="minus symbol">
+    <span>0</span>
+    <img src="/public/images/icon-plus.svg" alt="plus symbol">
+  </div>
+  </section>
+
+  </main>
+ 
+  
+  <footer>soy el footer</footer>
+</body>
+
 </html>
